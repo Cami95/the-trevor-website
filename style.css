@@ -1,0 +1,97 @@
+:root {
+  --main-branding-font: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-seri;
+  --title-font: 65px;
+}
+
+body {
+  font-family: var(--main-branding-font);
+  margin: 60px, 0;
+}
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+
+.head a {
+  text-decoration: none;
+}
+
+.home a {
+  color: purple;
+}
+
+.body a {
+  color: red;
+}
+
+.shop a {
+  color: gold;
+}
+
+h1 {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-family: var(--main-branding-font);
+  font-size: var(--title-font);
+}
+
+.mission h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.story h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.second-story h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.community {
+  text-align: center;
+}
+
+.emailbox {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.fitness-heading {
+  font-size: 40px;
+}
+
+.accountability span {
+  color: green;
+}
+
+.what-youll-get {
+  font-family: var(--main-branding-font);
+}
+
+.trev-vid {
+  display: flex;
+  justify-content: center;
+}
